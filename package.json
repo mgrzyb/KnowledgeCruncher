@@ -1,0 +1,26 @@
+{
+  "name": "knowledgecruncher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html --port 1235"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nanoid": "^5.0.3",
+    "pixi.js": "^7.3.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "y-websocket": "^1.5.0",
+    "yjs": "^13.6.8"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "parcel": "^2.10.3",
+    "process": "^0.11.10",
+    "punycode": "^1.4.1"
+  }
+}
